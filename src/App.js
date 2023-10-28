@@ -1,11 +1,14 @@
+import React from 'react';
 import './App.css';
-import Todowrapper from './components/Todowrapper';
-
+import Todo from './component/Todo';
 
 function App() {
   return (
-    <div className="App">
-      <Todowrapper/>
+    <div className="main-container">
+       <div className="centre-container">
+        <Todo />
+
+       </div>
     </div>
   );
   }
